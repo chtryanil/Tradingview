@@ -38,12 +38,12 @@ Before you begin, ensure you have met the following requirements:
 
 4. Install Python dependencies:
    ```
-   pip install -r requirements.txt
+  # pip install -r requirements.txt
    ```
 
 5. Download initial data:
    ```
-   python scripts/download_data.py
+   python data.py
    ```
 
 6. Start the development server:
@@ -60,7 +60,7 @@ To update the cryptocurrency data:
 1. Ensure your Python environment is activated (if using a virtual environment)
 2. Run the data download script:
    ```
-   python scripts/download_data.py
+   python data.py
    ```
 
 This script should be run periodically to keep your data up to date. Consider setting up a cron job or scheduled task to automate this process.
